@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dude Gallery - الموقع العصري</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="site-title">Dude Gallery</h1>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#about">عن المعرض</a></li>
+          <li><a href="#gallery">المعرض</a></li>
+          <li><a href="#future">المستقبل</a></li>
+          <li><a href="#contact">تواصل معنا</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h2>استكشاف الفن والإبداع مع Dude Gallery</h2>
+      <p>أهلاً بك في معرض Dude Gallery، حيث يمكنك استكشاف مجموعة فريدة من الصور والأعمال الفنية التي تبرز جمال الفن العصري.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>عن المعرض</h2>
+      <p>Dude Gallery هو معرض للفن العصري يُبرز التصاميم الفريدة والإبداعية. هنا يمكنك الاستمتاع بتجربة بصرية تفاعلية وغامرة تعكس رؤيتنا حول الفن في العصر الحديث.</p>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="container">
+      <h2>المعرض</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="image1.jpg" alt="صورة 1">
+        </div>
+        <div class="gallery-item">
+          <img src="image2.jpg" alt="صورة 2">
+        </div>
+        <div class="gallery-item">
+          <img src="image3.jpg" alt="صورة 3">
+        </div>
+        <!-- أضف المزيد من الصور هنا -->
+      </div>
+    </div>
+  </section>
+
+  <section id="future">
+    <div class="container">
+      <h2>المستقبل</h2>
+      <p>أهدافنا المستقبلية تشمل إضافة المزيد من الأعمال الفنية المتطورة والتجارب البصرية الفريدة في Dude Gallery. استمتع بتجربة فنية تفاعلية جديدة مع كل زيارة.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>تواصل معنا</h2>
+      <form>
+        <label for="name">الاسم:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">الرسالة:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">إرسال</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Dude Gallery. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
